@@ -1,3 +1,6 @@
 .DS_Store
 node_modules/
 .eslintrc
+babel.config.js
+package-lock.json
+package.json
