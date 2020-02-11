@@ -6,16 +6,11 @@
 export const reverseString = (normalString) => {
 
   let reverse = ""
-  
-  if(normalString != ""){
 
     for( let index = normalString.length - 1; index >= 0; index--){
       
       reverse += normalString.charAt(index)
     }
-
-  }
-
 
   return reverse
 };
