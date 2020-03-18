@@ -31,6 +31,8 @@ export class Change {
     return matrix
   }
 
+  // Using classic dynamic programming by finding the combinations
+  // of all smaller values that would sum to the current threshold.
   solveMatrix(coins, value) {
 
     let matrix = this.createBaseMatrix(coins, value)
