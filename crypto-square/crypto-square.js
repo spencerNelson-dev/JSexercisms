@@ -58,7 +58,7 @@
     // are the number of columns in length and push them to the array
     for(let slices = 0; slices < maxSlices  ; slices++){
 
-      if(text.slice((slices * segmentLength),(segmentLength *(slices + 1))) != ''){
+      if(text.slice( (slices * segmentLength),(segmentLength * (slices + 1)) ) != ''){
 
         segments.push(text.slice((slices * segmentLength),(segmentLength *(slices + 1))))
       } 
@@ -77,7 +77,7 @@
 
     // loop through the array and build our cipher by picking the
     // characters in each column according to the index. For example
-    // all the 0th elements of our strings our our 0th column.
+    // all the 0th elements of our strings are our 0th column.
     for (let char = 0; char < wordLength; char++){
 
       for(let segment = 0; segment < this.plaintextSegments().length; segment++){

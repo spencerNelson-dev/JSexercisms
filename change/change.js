@@ -2,7 +2,7 @@
 // createBaseMatrix and solveMatrix were taken from:
 // https://en.wikipedia.org/wiki/Change-making_problem
 
-// for the calucate I used this video for inspiration:
+// for the calucate function I used this video for inspiration:
 // https://www.youtube.com/watch?v=Y0ZqKpToTic
 
 
